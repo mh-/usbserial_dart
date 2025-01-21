@@ -8,7 +8,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.1.0'
+        classpath 'com.android.tools.build:gradle:8.7.2'
     }
 }
 
@@ -49,6 +49,6 @@ android {
 }
 
 dependencies {
-    implementation 'com.github.felHR85:UsbSerial:6.1.0'
+    implementation 'com.github.AurelienBallier:UsbSerial:6.1.1'
 }
 
